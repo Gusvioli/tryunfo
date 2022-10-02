@@ -1,0 +1,311 @@
+.isVisible {
+  display: none;
+}
+
+body {
+  align-items: center;
+  background-attachment: fixed;
+  background-color: rgb(36, 35, 35);
+  background-image: url('../images/SWWal.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 12px;
+  font-weight: 1000;
+  text-shadow: rgb(73, 73, 73) 1px 0 10px;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: bisque;
+  font-size: 54px;
+  font-weight: 1000;
+  text-shadow: rgb(120, 121, 119) 1px 0 10px;
+  text-transform: uppercase;
+}
+
+label {
+  align-items: center;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.tryunfo {
+  align-items: center;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.conteudo__card {
+  align-items: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 90%;
+}
+
+.corpo__carta {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+button {
+  width: 90%;
+}
+
+.card-Template {
+  align-items: center;
+  background-color: rgb(93, 95, 100);
+  background-position: top;
+  border: 1px solid rgb(153, 155, 93);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  max-height: 500px;
+  max-width: 270px;
+  min-height: 500px;
+  min-width: 270px;
+  padding: 5px;
+  word-break: break-word;
+}
+
+.card-Template:hover {
+  border: 2px solid rgb(153, 155, 93);
+}
+
+.card-Template_normal {
+  align-items: center;
+  background-color: rgb(7, 16, 36);
+  background-position: top;
+  border: 2px solid rgb(153, 155, 93);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  max-height: 510px;
+  max-width: 270px;
+  min-height: 510px;
+  min-width: 270px;
+  padding: 5px;
+  word-break: break-word;
+}
+
+.card-Template_raro {
+  align-items: center;
+  background-color: rgb(36, 7, 18);
+  background-position: top;
+  border: 2px solid rgb(153, 155, 93);
+  border-radius: 15px;
+  box-shadow: rgba(180, 180, 180, 0.5) 0 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  max-height: 510px;
+  max-width: 270px;
+  min-height: 510px;
+  min-width: 270px;
+  padding: 5px;
+  word-break: break-word;
+}
+
+.card-Template_muito_raro {
+  align-items: center;
+  background-color: rgb(7, 36, 13);
+  background-position: top;
+  border: 2px solid rgb(153, 155, 93);
+  border-radius: 15px;
+  box-shadow: rgba(180, 180, 180, 0.5) 0 5px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  max-height: 510px;
+  max-width: 270px;
+  min-height: 510px;
+  min-width: 270px;
+  padding: 5px;
+  word-break: break-word;
+}
+
+.card-Template_super_trunfo {
+  align-items: center;
+  background-position: top;
+  border: 1px solid rgb(153, 155, 93);
+  border-radius: 15px;
+  box-shadow: rgba(180, 180, 180, 0.5) 0 5px 35px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  justify-content: space-between;
+  padding: 5px 10px;
+  word-break: break-word;
+}
+
+.card__name {
+  background-color: rgb(15, 15, 15);
+  border: 1px solid rgb(47, 47, 48);
+  border-radius: 5px;
+  max-height: 20px;
+  max-width: 255px;
+  min-height: 20px;
+  min-width: 255px;
+  padding: 3px;
+  word-break: break-word;
+}
+
+.card__description {
+  background-color: rgb(15, 15, 15);
+  border: 1px solid rgb(47, 47, 48);
+  border-radius: 5px;
+  max-height: 75px;
+  max-width: 255px;
+  min-height: 75px;
+  min-width: 255px;
+  padding: 10px 5px;
+  word-break: break-word;
+}
+
+.atributos {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  gap: 30px;
+  justify-content: center;
+  padding: 3px;
+  word-break: break-word;
+}
+
+img {
+  border-radius: 15px;
+  max-height: 275px;
+  max-width: 270px;
+  min-height: 275px;
+  min-width: 270px;
+  word-break: break-word;
+}
+
+.img__default {
+  background-color: rgb(15, 15, 15);
+  border: 1px solid rgb(56, 56, 56);
+  border-radius: 15px;
+  max-height: 275px;
+  max-width: 270px;
+  min-height: 275px;
+  min-width: 270px;
+}
+
+.corpo__tryunfo {
+  align-items: center;
+  background-color: rgb(45, 45, 46, 0.966);
+  border: 1px solid rgb(0, 255, 128, 0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-evenly;
+  margin: 5px;
+  padding: 20px;
+  width: 60%;
+}
+
+.corpo__tryunfo__pesquisa {
+  align-items: center;
+  background-color: rgba(45, 45, 46, 0.966);
+  border: 1px solid rgb(0, 255, 128, 0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row wrap;
+  height: 27px;
+  justify-content: center;
+  padding: 20px;
+  width: 60%;
+}
+
+.span_pesquisa {
+  font-size: 14px;
+}
+
+.corpo__tryunfo__pesquisa:hover {
+  align-items: center;
+  background-color: rgba(45, 45, 46, 0.966);
+  border: 1px solid rgb(0, 255, 128, 0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row wrap;
+  height: 27px;
+  justify-content: center;
+  padding: 20px;
+  width: 60%;
+}
+
+form {
+  align-items: center;
+  background-color: rgba(51, 51, 53, 0.966);
+  border: 1px solid rgba(255, 0, 55, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 20px;
+  width: 50%;
+}
+
+form:hover {
+  align-items: center;
+  background-color: rgba(51, 51, 53, 0.966);
+  border: 1px solid rgba(255, 0, 55, 0.7);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 20px;
+  width: 50%;
+}
+
+form > label {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 7px;
+  width: 350px;
+}
+
+
+.no-outline:focus {
+  outline: none;
+}
+
+span {
+  padding: 3px 5px;
+}
+
+label:hover {
+  background-color: rgb(95, 95, 95);
+}
+
+input, select, textarea {
+  background-color: rgb(63, 64, 65);
+  border-bottom-style: groove;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  color: aliceblue;
+  margin-right: 3px;
+  padding: 6px;
+  word-break: break-word;
+}
